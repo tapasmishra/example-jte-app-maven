@@ -7,8 +7,8 @@
   unit_test() 
 */
 libraries{
-  maven {
+  maven { printValue {
     number = 3
-    message = "my message to be printed!"
+    message = "my message to be printed!" }
   }
 }
